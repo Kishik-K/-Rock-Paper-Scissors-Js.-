@@ -15,6 +15,6 @@ A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
 ## How to Run
 Just open `index.html` in your browser.
-
+(uploaded to the Github Repository)
 ---
 *This project is being built step by step as part of learning JavaScript fundamentals — booleans, if/else statements, and DOM manipulation.*
