@@ -34,6 +34,7 @@
 
       alert('You picked ROCK — CPU picked ' + cpuMove + ' — ' + result);
     ">🪨 Rock</button>
+
     <button onclick="
       const randomNumber = Math.random();
       let cpuMove = '';
@@ -49,15 +50,16 @@
       let result = '';
 
       if (cpuMove === 'ROCK') {
-        result = 'TIE';
-      } else if (cpuMove === 'PAPER') {
-        result = 'YOU LOSE';
-      } else if (cpuMove === 'SCISSORS') {
         result = 'YOU WIN';
+      } else if (cpuMove === 'PAPER') {
+        result = 'TIE';
+      } else if (cpuMove === 'SCISSORS') {
+        result = 'YOU LOSE';
       }
 
-      alert('You picked ROCK — CPU picked ' + cpuMove + ' — ' + result);
-    ">🪨 Rock</button>
+      alert('You picked PAPER — CPU picked ' + cpuMove + ' — ' + result);
+    ">📄 Paper</button>
+
     <button onclick="
       const randomNumber = Math.random();
       let cpuMove = '';
