@@ -16,3 +16,7 @@ body {
   gap: 40px;
   padding: 32px;
 }
+
+header {
+  text-align: center;
+}
