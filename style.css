@@ -9,4 +9,10 @@ body {
   color: #011b4f;
   font-family: 'Segoe UI', sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 32px;
 }
