@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #EBE9E4;
+  color: #011b4f;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
