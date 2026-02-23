@@ -2,30 +2,33 @@
 
 A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
-## 🚧 Status: In Progress — Day 3
+## 🚧 Status: In Progress — Day 4
 
 ### What's done:
 - ✅ HTML structure
-- ✅ Game logic working
-- ✅ JavaScript moved into separate `script.js` file
-- ✅ Result now displays on the page instead of an alert popup
+- ✅ JavaScript game logic in `script.js`
+- ✅ Result displayed on page
+- ✅ Basic CSS styling added in `style.css`
 
 ### Project structure:
 ```
 rock-paper-scissors/
 ├── index.html
+├── style.css
 └── script.js
 ```
 
 ### Concepts covered:
 - `Math.random()` for randomness
 - `if / else if` statements
-- Boolean comparisons with `===`
 - `document.getElementById()` for DOM manipulation
-- Separating concerns — HTML and JS in different files
+- CSS Flexbox for layout
+- Linking external CSS with `<link>`
+- Separating HTML, CSS, and JS into different files
 
 ### What's coming:
-- `style.css` for visual design
+- Polished professional styling
+- Color-coded win/lose/tie result
 
 ## How to Run
 Open `index.html` in your browser and click a button.
