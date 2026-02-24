@@ -30,13 +30,15 @@ body {
   padding: 32px;
 }
 
+/* Header */
 header {
   text-align: center;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #011b4f;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--navy);
 }
 
