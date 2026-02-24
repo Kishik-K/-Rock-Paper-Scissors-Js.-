@@ -18,15 +18,15 @@
 }
 
 body {
-  background-color: #EBE9E4;
-  color: #011b4f;
-  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 52px;
   padding: 32px;
 }
 
