@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
+:root {
+  --bg: #EBE9E4;
+  --navy: #011b4f;
+  --navy-light: #0a2a6e;
+  --white: #ffffff;
+  --border: #c8c5be;
+  
+}
 * {
   margin: 0;
   padding: 0;
