@@ -5,7 +5,11 @@
   --navy-light: #0a2a6e;
   --white: #ffffff;
   --border: #c8c5be;
-  
+  --text-primary: #011b4f;
+  --text-muted: #7a7d8a;
+  --win: #166534;
+  --lose: #991b1b;
+  --tie: #92400e;
 }
 * {
   margin: 0;
