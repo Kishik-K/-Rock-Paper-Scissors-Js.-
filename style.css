@@ -49,3 +49,12 @@ h1 {
   margin-top: 10px;
   letter-spacing: 0.2px;
 }
+
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
