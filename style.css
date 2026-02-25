@@ -58,3 +58,17 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.btn {
+  width: 148px;
+  height: 156px;
+  background: var(--white);
+  border: 2px solid var(--navy);
+  border-radius: 18px;
+  cursor: pointer;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.2px;
+}
