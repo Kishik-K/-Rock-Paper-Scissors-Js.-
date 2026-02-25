@@ -79,3 +79,8 @@ h1 {
   transition: all 0.18s ease;
   box-shadow: 4px 4px 0px var(--navy);
 }
+
+.btn span {
+  font-size: 44px;
+  line-height: 1;
+}
