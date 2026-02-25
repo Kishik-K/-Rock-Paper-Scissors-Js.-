@@ -84,3 +84,11 @@ h1 {
   font-size: 44px;
   line-height: 1;
 }
+
+
+.btn:hover {
+  background: var(--navy);
+  color: var(--bg);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px var(--navy-light);
+}
