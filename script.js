@@ -1,3 +1,9 @@
+function showResult(playerMove, cpuMove, result) {
+  const el = document.getElementById('result');
+  el.textContent = `You picked ${playerMove} — CPU picked ${cpuMove} — ${result}`;
+  el.className = result === 'YOU WIN' ? 'win' : result === 'YOU LOSE' ? 'lose' : 'tie';
+}
+
 function playRock() {
   const randomNumber = Math.random();
   let cpuMove = '';
