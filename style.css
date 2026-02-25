@@ -71,4 +71,11 @@ h1 {
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  transition: all 0.18s ease;
+  box-shadow: 4px 4px 0px var(--navy);
 }
