@@ -1,14 +1,8 @@
 # Rock Paper Scissors 🎮
 
-A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript.
+A Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
-## 🚧 Status: In Progress — Day 4
-
-### What's done:
-- ✅ HTML structure
-- ✅ JavaScript game logic in `script.js`
-- ✅ Result displayed on page
-- ✅ Basic CSS styling added in `style.css`
+## ✅ Status: Complete
 
 ### Project structure:
 ```
@@ -18,20 +12,28 @@ rock-paper-scissors/
 └── script.js
 ```
 
-### Concepts covered:
-- `Math.random()` for randomness
-- `if / else if` statements
-- `document.getElementById()` for DOM manipulation
-- CSS Flexbox for layout
-- Linking external CSS with `<link>`
-- Separating HTML, CSS, and JS into different files
+## How to Play
+Open `index.html` in your browser, pick Rock, Paper, or Scissors — the CPU picks randomly and the result shows instantly on screen.
 
-### What's coming:
-- Polished professional styling
-- Color-coded win/lose/tie result
+- 🟢 Green = You Win
+- 🔴 Red = You Lose
+- 🟡 Yellow = Tie
 
-## How to Run
-Open `index.html` in your browser and click a button.
+## Concepts Covered
+This project was built to practice core JavaScript and web fundamentals:
+
+- **Booleans & comparisons** — `===` to compare player vs CPU move
+- **if / else if statements** — to determine win, lose, or tie
+- **Math.random()** — to generate the CPU's random move
+- **DOM manipulation** — `document.getElementById()` to display result on page
+- **CSS custom properties** — variables for consistent theming
+- **Flexbox** — for centering and layout
+- **Separation of concerns** — HTML, CSS, and JS in separate files
+
+## Built With
+- HTML5
+- CSS3
+- Vanilla JavaScript
 
 ---
-*This project is being built step by step as part of learning JavaScript fundamentals — booleans, if/else statements, and DOM manipulation.*
+*First JavaScript project. Built step by step from scratch.*
