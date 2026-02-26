@@ -92,6 +92,21 @@ h1 {
   box-shadow: 6px 6px 0px var(--navy-light);
 }
 
+/* Result */
+#result {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: center;
+  padding: 18px 32px;
+  background: var(--white);
+  border: 2px solid var(--navy);
+  border-radius: 14px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 4px 4px 0px var(--navy);
+  transition: all 0.2s ease;
+}
 .btn:active {
   transform: translate(2px, 2px);
   box-shadow: 2px 2px 0px var(--navy);
