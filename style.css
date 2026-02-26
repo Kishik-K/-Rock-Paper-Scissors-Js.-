@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
 :root {
   --bg: #EBE9E4;
   --navy: #011b4f;
@@ -11,6 +12,7 @@
   --lose: #991b1b;
   --tie: #92400e;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +52,6 @@ h1 {
   letter-spacing: 0.2px;
 }
 
-
 /* Buttons */
 .buttons {
   display: flex;
@@ -71,26 +72,33 @@ h1 {
   font-weight: 600;
   font-family: 'Inter', sans-serif;
   letter-spacing: 0.2px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  transition: all 0.18s ease;
-  box-shadow: 4px 4px 0px var(--navy);
-}
+  /*  ::::::::::::::::::::::::::::  */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    transition: all 0.18s ease;
+    box-shadow: 4px 4px 0px var(--navy);
+  }
 
 .btn span {
   font-size: 44px;
   line-height: 1;
 }
 
-.btn:hover {
-  background: var(--navy);
-  color: var(--bg);
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px var(--navy-light);
-}
+  .btn:hover {
+    background: var(--navy);
+    color: var(--bg);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px var(--navy-light);
+  }
+
+  .btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px var(--navy);
+  }
 
 /* Result */
 #result {
@@ -107,7 +115,23 @@ h1 {
   box-shadow: 4px 4px 0px var(--navy);
   transition: all 0.2s ease;
 }
-.btn:active {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px var(--navy);
+
+#result:empty {
+  display: none;
+}
+
+#result.win  { 
+  color: var(--win); 
+  border-color: var(--win); 
+  box-shadow: 4px 4px 0px var(--win);
+}
+#result.lose { 
+  color: var(--lose); 
+  border-color: var(--lose); 
+  box-shadow: 4px 4px 0px var(--lose);
+}
+#result.tie  { 
+  color: var(--tie);  
+  border-color: var(--tie);  
+  box-shadow: 4px 4px 0px var(--tie);
 }
