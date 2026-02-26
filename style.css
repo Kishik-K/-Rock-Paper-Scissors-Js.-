@@ -80,6 +80,10 @@ h1 {
   box-shadow: 4px 4px 0px var(--navy);
 }
 
+.btn span {
+  font-size: 44px;
+  line-height: 1;
+}
 
 .btn:hover {
   background: var(--navy);
