@@ -4,6 +4,8 @@ A Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
 ## ✅ Status: Complete
 
+https://kishik-k.github.io/-Rock-Paper-Scissors-Js.-/
+
 ### Project structure:
 ```
 rock-paper-scissors/
