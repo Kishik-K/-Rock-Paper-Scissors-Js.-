@@ -39,7 +39,7 @@ This project was built to practice core JavaScript and web fundamentals:
 ## Built With
 - HTML5
 - CSS3
-- Vanilla JavaScript
+- JavaScript
 
 ---
-*First JavaScript project. Built step by step from scratch.*
+*JavaScript project. Built step by step from scratch.*
