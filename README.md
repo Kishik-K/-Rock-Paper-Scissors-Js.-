@@ -4,8 +4,7 @@ A Rock Paper Scissors game built with HTML, CSS, and JavaScript.
 
 ## ✅ Status: Complete
 
-<img width="451" height="539" alt="image" src="https://kishik-k.github.io/-Rock-Paper-Scissors-Js.-/
-" /> <img width="451" height="539" alt="image" src="https://github.com/user-attachments/assets/cce13356-a525-4c22-b7c6-a3e0dced8def" />
+<img width="451" height="539" alt="image" src="https://github.com/user-attachments/assets/003b1550-c2c5-4461-82b3-3c9039d73e53" /> <img width="451" height="539" alt="image" src="https://github.com/user-attachments/assets/cce13356-a525-4c22-b7c6-a3e0dced8def" />
 
 
 
